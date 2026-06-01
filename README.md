@@ -3,6 +3,32 @@
 
 The proposed SDM-YOLO model was evaluated on two publicly available steel surface defect datasets.
 
+### Data Availability
+
+Both datasets are publicly available from their respective official sources and should be obtained directly from the original dataset providers in accordance with their licenses and usage policies.
+
+The processed dataset splits, training configurations, model weights, and source code used in this study will be made publicly available upon acceptance of the paper.
+
+---
+
+## Reproducibility
+
+To ensure reproducibility, the following materials will be released after publication:
+
+* Source code of SDM-YOLO
+* Model configuration files
+* Training and evaluation scripts
+* Pretrained model weights
+* Dataset split files
+* Detailed experimental settings
+
+The repository will be updated with the public release link after the manuscript is accepted.
+
+* CUDA 11.8
+* NVIDIA RTX 3060 (12 GB)
+
+The complete training configuration, model architecture files, and pretrained weights are provided in this repository.
+
 ## 1. NEU-DET Dataset
 
 The NEU-DET dataset is a benchmark steel surface defect dataset released by Northeastern University. It contains six common defect categories:
@@ -138,6 +164,30 @@ All experiments were conducted using:
 
 * Python 3.12.4
 * PyTorch 2.7.0
+
+
+
+### Data Availability
+
+Both datasets are publicly available from their respective official sources and should be obtained directly from the original dataset providers in accordance with their licenses and usage policies.
+
+The processed dataset splits, training configurations, model weights, and source code used in this study will be made publicly available upon acceptance of the paper.
+
+---
+
+## Reproducibility
+
+To ensure reproducibility, the following materials will be released after publication:
+
+* Source code of SDM-YOLO
+* Model configuration files
+* Training and evaluation scripts
+* Pretrained model weights
+* Dataset split files
+* Detailed experimental settings
+
+The repository will be updated with the public release link after the manuscript is accepted.
+
 * CUDA 11.8
 * NVIDIA RTX 3060 (12 GB)
 
