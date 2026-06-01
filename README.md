@@ -23,11 +23,8 @@ To ensure reproducibility, the following materials will be released after public
 * Detailed experimental settings
 
 The repository will be updated with the public release link after the manuscript is accepted.
-
-* CUDA 11.8
-* NVIDIA RTX 3060 (12 GB)
-
 The complete training configuration, model architecture files, and pretrained weights are provided in this repository.
+
 
 ## 1. NEU-DET Dataset
 
