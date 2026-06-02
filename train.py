@@ -15,7 +15,7 @@ if __name__ == '__main__':
     
     model.train(data='data.yaml',
                 cache=False,
-                imgsz=640,
+                imgsz=256,
                 epochs=100,
                 batch=2,
                 close_mosaic=0,
