@@ -9,7 +9,7 @@ if __name__ == '__main__':
     model = YOLO(r"E:\NEU-DETSSDD\runs\nabi\Nabin\weights\best.pt") # select your model.pt path
     model.predict(source=r"E:\NEU-DETSSDD\val\images",
                   imgsz=256,
-                  project=r"E:\CSMEF-YOLO-test\yyc",
+                  project=r"E:\NEU-DETSSDD",
                   name='dbb',
                   save=True,
                   # conf=0.2,
