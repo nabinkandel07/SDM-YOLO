@@ -8,17 +8,15 @@ import shutil
 #
 
 # Set the path to the folder containing images and annotations
-data_folder = "D:/Download/NEU-DET_SSDD/NEU-DET/IMAGES"
+data_folder = "E:/NEU-DET_SSDD/NEU-DET/IMAGES"
 
 # Set the path to the output folders
-train_folder = "D:/Download/NEU-DET_SSDD/train"
-val_folder = "D:/Download/NEU-DET_SSDD/valid"
-test_folder = "D:/Download/NEU-DET_SSDD/test"
+train_folder = "E:/NEU-DET_SSDD/train"
+val_folder = "E:/NEU-DET_SSDD/valid"
 
 # Set the split ratios
-train_ratio = 0.8
+train_ratio = 0.9
 val_ratio = 0.1
-test_ratio = 0.1
 
 # Set the file extension
 file_extension = ".jpg"  # Change this to ".jpg" or anything else if needed
@@ -30,8 +28,6 @@ os.makedirs(os.path.join(train_folder, "images"), exist_ok=True)
 os.makedirs(os.path.join(train_folder, "labels"), exist_ok=True)
 os.makedirs(os.path.join(val_folder, "images"), exist_ok=True)
 os.makedirs(os.path.join(val_folder, "labels"), exist_ok=True)
-os.makedirs(os.path.join(test_folder, "images"), exist_ok=True)
-os.makedirs(os.path.join(test_folder, "labels"), exist_ok=True)
 
 # Get the list of all files in the data folder
 all_files = os.listdir(data_folder)
@@ -63,12 +59,10 @@ random.shuffle(image_files)
 num_images = len(image_files)
 num_train = int(num_images * train_ratio)
 num_val = int(num_images * val_ratio)
-num_test = num_images - num_train - num_val
 
 # Split the image files into train, val, and test sets
 train_files = image_files[:num_train]
 val_files = image_files[num_train:num_train + num_val]
-test_files = image_files[num_train + num_val:]
 
 # Move the image files to the corresponding output folders
 for file in train_files:
@@ -82,11 +76,5 @@ for file in val_files:
     annotation_path = os.path.join(data_folder, file.replace(file_extension, ".txt"))
     shutil.move(image_path, os.path.join(val_folder, "images", file))
     shutil.move(annotation_path, os.path.join(val_folder, "labels", file.replace(file_extension, ".txt")))
-
-for file in test_files:
-    image_path = os.path.join(data_folder, file)
-    annotation_path = os.path.join(data_folder, file.replace(file_extension, ".txt"))
-    shutil.move(image_path, os.path.join(test_folder, "images", file))
-    shutil.move(annotation_path, os.path.join(test_folder, "labels", file.replace(file_extension, ".txt")))
 
 print("Data splitting completed.")
