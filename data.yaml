@@ -1,5 +1,4 @@
 # Path to training and validation data
-test: D:/NEU-DETSSDD/test/images
 train: D:/NEU-DETSSDD/train/images
 val: D:/NEU-DETSSDD/valid/images
 
