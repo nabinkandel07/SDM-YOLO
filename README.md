@@ -5,7 +5,7 @@ The proposed SDM-YOLO model was evaluated on two publicly available steel surfac
 
 # Data Availability
 
-The implementation code, model configuration files, dataset split information, training settings, evaluation scripts, and related resources for the proposed SDM-YOLO framework have been prepared to support reproducibility. These materials were initially submitted as supplementary files during the review process. Upon acceptance of the manuscript, all related resources will be made publicly accessible through the following 
+The implementation code, model configuration files, dataset partition details, training settings, and evaluation scripts for the proposed SDM-YOLO framework are publicly available to support reproducibility. These resources can be accessed at:
 
 Baidu Netdisk :- https://pan.baidu.com/s/1ONCQLBAEUMKJbXW1PSF13A?pwd=nk26
 链接: https://pan.baidu.com/s/1ONCQLBAEUMKJbXW1PSF13A 提取码: nk26
