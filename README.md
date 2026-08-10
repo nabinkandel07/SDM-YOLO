@@ -158,9 +158,56 @@ This preprocessing strategy follows the lightweight design objective of SDM-YOLO
 
 ---
 
-## Reproducibility
+## 📝 Citation
 
-All experiments were conducted using:
+If you find this work useful, please cite:
+
+```bibtex
+@article{10.1088/2631-8695/ae9671,
+	author={KANDEL, NABIN and Wu, Ping},
+	title={SDM-YOLO: An Improved YOLO Model with Multiscale Attention for Steel Surface Defect Detection},
+	journal={Engineering Research Express},
+	url={http://iopscience.iop.org/article/10.1088/2631-8695/ae9671},
+	year={2026},
+	abstract={Surface defects generated during steel manufacturing significantly affect product quality, structural reliability, and operational safety, creating a strong demand for accurate and real-time inspection systems in industrial environments. However, existing detection approaches often struggle with small-scale defects, complex surface textures, weak visual contrast, and the trade-off between detection accuracy and computational efficiency. To address these challenges, this paper proposes SDM-YOLO, an enhanced steel surface defect detection framework built upon the YOLO11n architecture. Rather than introducing entirely new architectural primitives, the contribution of this work lies in the systematic integration and task-specific adaptation of complementary modules within a unified lightweight framework. Specifically, the proposed method strengthens feature representation by integrating a C2PSA SEAM module into the backbone, introduces a DySample-based dynamic upsampling strategy in the neck to enable content-aware multi-scale feature fusion with improved boundary preservation, and incorporates a multi-scale convolutional attention mechanism into the detection head. Additionally, bounding box regression is optimized using a normalized Wasserstein distance loss to enhance localization stability for small and low-contrast defects. Extensive experiments on the NEU-DET and GC10-DET datasets demonstrate that SDM-YOLO achieves mAP@0.5 scores of 81.0% and 72.3%, respectively, while maintaining efficient real-time performance with only 2.69M parameters, 6.6 GFLOPs, and an inference speed of 94.5 FPS. These results confirm that the proposed framework achieves a favorable accuracy-efficiency trade-off, making it well-suited for practical steel surface defect inspection applications.}
+}
+```
+
+---
+
+## 📧 Contact
+
+| Author | Email |
+|--------|-------|
+| Ping Wu (Corresponding Author) | pingwu@zstu.edu.cn |
+| Nabin Kandel | nabinkandel60@gmail.com |
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+This work was supported by:
+- "Pioneer" and "Leading Goose" R&D Program of Zhejiang (Grant 2026C02A3004)
+- National Natural Science Foundation of China (Grant 62573387)
+- Natural Science Foundation of Zhejiang Province (Grant LY24F030004)
+- Fundamental Research Funds of Zhejiang Sci-Tech University (25222139-Y)
+
+---
+
+## ⭐ Star History
+
+If you find this repository useful, please consider giving it a star ⭐
+
+---
+
+**Note:** This repository will be made fully public upon paper acceptance. For review purposes, please contact the authors for access.
+```
 
 * Python 3.12.4
 * PyTorch 2.7.0
