@@ -1,4 +1,5 @@
 # SDM-YOLO: An Improved YOLO Model with Multiscale Attention for Steel Surface Defect Detection
+
 [![Paper](https://img.shields.io/badge/Paper-Engineering%20Research%20Express-blue)](https://iopscience.iop.org/article/10.1088/2631-8695/ae9671)
 [![DOI](https://img.shields.io/badge/DOI-10.1088%2F2631--8695%2Fae9671-green)](https://doi.org/10.1088/2631-8695/ae9671)
 [![Python](https://img.shields.io/badge/Python-3.12.4-blue)](https://www.python.org/)
@@ -14,6 +15,8 @@
 ## 📖 Overview
 
 **SDM-YOLO** is a lightweight and stability-enhanced detection framework for real-time steel surface defect inspection, built upon the YOLO11n architecture. Rather than introducing entirely new architectural primitives, the contribution of this work lies in the **systematic integration and task-specific adaptation of complementary modules** within a unified lightweight framework.
+
+This repository contains the official implementation of the paper published in **Engineering Research Express**.
 
 ### Key Features
 
@@ -240,12 +243,6 @@ Password: nk26
   <img src="https://github.com/user-attachments/assets/1a6158b3-06b8-4893-a246-cc8e9e903fb9" alt="Baidu Netdisk QR Code" width="300"/>
 </p>
 
-### Google Drive (Alternative)
-
-```
-[Link will be added after publication]
-```
-
 ---
 
 ## 📈 Results
@@ -338,7 +335,7 @@ Password: nk26
 
 ## 📝 Citation
 
-If you find this work useful for your research, please cite:
+If you find this work useful for your research, please cite the official publication:
 
 ```bibtex
 @article{kandel2026sdmyolo,
@@ -403,9 +400,8 @@ If you find this repository useful, please consider giving it a star ⭐
 ## 🔄 Updates
 
 - **2026**: Initial release with paper publication
-- Code, weights, and datasets will be continuously updated
+- Code, weights, and datasets are continuously maintained
 
 ---
 
 *Built with ❤️ by Nabin Kandel*
-```
