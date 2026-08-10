@@ -407,9 +407,5 @@ If you find this repository useful, please consider giving it a star ⭐
 
 ---
 
-**Note:** This repository will be made fully public upon paper acceptance. For review purposes, please contact the authors for access.
-
----
-
 *Built with ❤️ by Nabin Kandel*
 ```
