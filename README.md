@@ -354,7 +354,6 @@ If you find this work useful for your research, please cite the official publica
 
 | Author | Role | Email |
 |--------|------|-------|
-| **Ping Wu** | Corresponding Author | pingwu@zstu.edu.cn |
 | **Nabin Kandel** | First Author | nabinkandel60@gmail.com |
 
 **Affiliation:**
