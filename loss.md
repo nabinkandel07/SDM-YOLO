@@ -183,9 +183,6 @@ If you use this implementation in your research, please cite:
 ---
 
 ## 12. Contact
-
-For questions or issues regarding this implementation, please contact:nabinkandel60@gmail.com
-
 **Nabin Kandel**
 School of Information Science and Engineering
 Zhejiang Sci-Tech University, Hangzhou, China
