@@ -6,10 +6,6 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.7.0-red)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1a6158b3-06b8-4893-a246-cc8e9e903fb9" alt="SDM-YOLO" width="800"/>
-</p>
-
 ---
 
 ## 📖 Overview
